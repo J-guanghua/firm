@@ -28,7 +28,6 @@ func init()  {
 		}
 	}()
 }
-
 //获取企业的jsapi_ticket
 type Ticket struct {
 	Errcode int
