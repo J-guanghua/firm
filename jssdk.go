@@ -22,7 +22,6 @@ func (self *JsSdk) JsapiTicket() (string,*api.CryptError) {
 	access_token := self.Firm.access_token(self.Firm.Secret)
 	return  token.Jsapi_Ticket(access_token)
 }
-
 //Code2_Session
 func (self *JsSdk) Code2Session(js_code string) (token.CodeSession,*api.CryptError) {
 	access_token := self.Firm.access_token(self.Firm.Secret)
