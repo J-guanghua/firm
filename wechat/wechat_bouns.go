@@ -16,6 +16,7 @@ import (
 "encoding/hex"
 )
 
+
 var strlength = 32
 //EnterpriseXml：：企业付款
 type EnterpriseXml struct {
