@@ -36,7 +36,6 @@ type SqlModels interface {
 	NotifyMessage(mine *wechat.User_Message) []byte  //接入给缓冲区用户消息并通知
 	FinishMessage(mine *wechat.User_Message) []byte  //结束会话@all
 }
-
 //请求动作
 type ConnService struct {
 	Action string
