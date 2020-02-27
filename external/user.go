@@ -11,7 +11,7 @@ func Userid_To_Openid(assess_token string,data []byte) (array api.PortData,err *
 	return array,api.GetUnmarshal(URL,&array)
 }
 
-//获取配置了客户联系功能的成员列表
+//获取客户联系功能的成员列表
 func Follow_User_List(assess_token string,data []byte) (array api.PortData,err *api.CryptError) {
 	URL := api.HostUrl(api.GET_FOLLOW_USER_LIST,assess_token)
 	return array,api.GetUnmarshal(URL,&array)
