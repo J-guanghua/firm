@@ -14,7 +14,6 @@ type Company struct {
 	Apply_Secret string //企业应用的Secret
 	Contacts_Secret string //通讯录的Secret
 }
-
 //返回企业实例
 func NewCompany(CorpId,Secret string) *Company {
 	return &Company{
