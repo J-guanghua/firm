@@ -26,7 +26,6 @@ type WechatCallback struct {
 	Format string
 	index   int8
 }
-
 type TypeInfo struct {
 	MsgType      string
 	HandlerFunc HandlerFunc
