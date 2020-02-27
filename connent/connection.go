@@ -168,7 +168,7 @@ func CloseQueue(remoteid string) bool {
 	}
 	return false
 }
-//消息广播
+//消息广播群发
 func ClientsPush(data []byte)  {
 	for _,conn := range Client.Clients {
 		conn.AddOutChan(data)
