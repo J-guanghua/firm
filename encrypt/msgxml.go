@@ -199,6 +199,7 @@ type PassivityVideo struct {
 		Description CDATAText
 	}
 }
+
 func Value2CDATA(v string) CDATAText {
 	return CDATAText{"<![CDATA[" + v + "]]>"}
 }
