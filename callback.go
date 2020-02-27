@@ -139,6 +139,7 @@ func (self *Encrypt) DelFollowUser(data []byte) encrypt.DelFollowUser {
 	xml.Unmarshal(data,&DelFollowUser)
 	return DelFollowUser
 }
+
 //--------------------------------被动回复消息-------------------------------//
 
 //回复文本消息
