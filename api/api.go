@@ -74,7 +74,6 @@ const GET_USER_INFO_BY_3RD   = "/cgi-bin/service/getuserinfo3rd?suite_access_tok
 const GET_USER_DETAIL_BY_3RD = "/cgi-bin/service/getuserdetail3rd?suite_access_token=SUITE_ACCESS_TOKEN"
 const GET_LOGIN_INFO          = "/cgi-bin/service/get_login_info?access_token=PROVIDER_ACCESS_TOKEN"
 const GET_REGISTER_CODE       = "/cgi-bin/service/get_register_code?provider_access_token=PROVIDER_ACCESS_TOKEN"
-const GET_REGISTER_INFO       = "/cgi-bin/service/get_register_info?provider_access_token=PROVIDER_ACCESS_TOKEN"
 const SET_AGENT_SCOPE          = "/cgi-bin/agent/set_scope"
 const SET_CONTACT_SYNC_SUCCESS = "/cgi-bin/sync/contact_sync_success"
 const REQUEST_URL  = "https://qyapi.weixin.qq.com"
