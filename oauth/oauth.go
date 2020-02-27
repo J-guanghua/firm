@@ -21,7 +21,7 @@ func Qrconnect_Info(openid ,accesstoken string) (array api.PortData,err *api.Cry
 	return array,api.GetUnmarshal(URL,&array)
 }
 
-//返回授权url
+//返回授权url链接
 func Auth_Url(appid,redirect string) string {
 	return api.OpenUrl(api.QRCONNECT,appid,redirect)
 }
